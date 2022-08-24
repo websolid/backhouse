@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+header.masthead{
+  background-image: url("assets/img/bh2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: fill;
+  background-blend-mode: darken;
+  background-color: #fdfdfd;
+
+  padding-top: 12.5rem;
+  padding-bottom: 20.5rem;
+    height: 50rem;
+    opacity: 0.5;
+}
+
+@media (max-width: 728px) {
+  header.masthead{
+    background-image: url("assets/img/bh2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #;
+
+    padding-top: 12.5rem;
+    padding-bottom: 20.5rem;
+      height: 50rem;
+      opacity: 0.5;
+  }
+}
+/* header.masthead:before {
+  content: "";
+  position: absolute;
+  background-color: #ffff;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+} */
+h1{
+  font-family: 'Michroma', sans-serif;
+
+text-transform: capitalize;
+  color: black;
+  font-size: 1.4rem;
+  text-align: center !important;
+  padding-top: 2rem;
+  letter-spacing: 0.25rem;
+
+}
+.navbar{
+  width: 100%;
+  background: transparent;
+}
+.btn {
+  margin-top: 19rem;
+  background: #fdfdfd;
+  color: black;
+  font-family: 'Adamina', serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.12rem;
+  text-transform: uppercase;
+  border: 2px solid black;
+  border-radius: 50px;
+
+}
+
+.btn:hover{
+  margin-top: 19rem;
+  background: black;
+  color: #fdfdfd;
+  font-family: 'Adamina', serif;
+  font-size: 1.75rem;
+  letter-spacing: 0.12rem;
+  text-transform: capitalize;
+  border: black;
+}
+
+/* navbar */
